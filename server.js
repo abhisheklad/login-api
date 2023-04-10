@@ -1,5 +1,5 @@
 const newrelic = require("newrelic");
-const iast = require("/Users/abhisheklad/Documents/nodejs/newrelic");
+
 const express = require("express");
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
