@@ -10,7 +10,6 @@ exports.create = (req, res) => {
       .save()
       .then((data) => {
         res.send(data);
-        eval(newrelic.addCustomAttribute("eval", "hackerAlert"));
       })
       .catch((err) => {
         res.status(500).send({
@@ -26,7 +25,6 @@ exports.findAll = (req, res) => {
     App.find()
       .then((data) => {
         res.send(data);
-        eval(newrelic.addCustomAttribute("eval", "hackerAlert"));
       })
       .catch((err) => {
         res.status(500).send({

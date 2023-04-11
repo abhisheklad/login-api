@@ -3,6 +3,6 @@
     "workers": 8,
     "timeout": 1000,
     "urls": [
-      "http://localhost:8081/getallusers"
+      "http://localhost:8080/getallusers"
     ]
   }
