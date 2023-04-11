@@ -27,7 +27,7 @@ app.get("/", (req, res) => {
   res.json({ message: "Server is running 🚀" });
 });
 
-let PORT = 8081;
+let PORT = 8080;
 
 require("./app/routes/app.routes.js")(app);
 app.listen(PORT, () => {
